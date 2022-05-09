@@ -18,7 +18,10 @@ const ColorsCard = {
       color: #f68cff;
     `,
     Branco: css`
-      color: #fff;
+      color: #fff; 
+      h1{
+        color: #7191ff
+      }
     `
   }
   

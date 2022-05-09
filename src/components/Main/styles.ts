@@ -26,5 +26,8 @@ export const AllCard = styled.div`
   gap: 30px; 
  
  
-`
+` 
+export const Second_main = styled.main`
+  
+`;
 
