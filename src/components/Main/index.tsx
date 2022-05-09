@@ -11,11 +11,11 @@ const Main = ({}) => (
     <S.Main>
     <Header/>
     <S.AllCard>
-<Card color='Azul' description='teste ' size='Cardmedio' valor='3.000,21'/>  
-<Card color='Azul' description='teste ' size='Cardmedio' valor='3.000,21'/> 
-<Card color='Azul' description='teste ' size='Cardmedio' valor='3.000,21'/> 
-<Card color='Azul' description='teste ' size='Cardmedio' valor='3.000,21'/> 
-<Card color='Azul' description='teste ' size='Cardmedio' valor='3.000,21'/> 
+<Card color='Azul' description='teste ' size='Cardmedio' valor='3.000,91'/>  
+<Card color='Azul' description='teste ' size='Cardmedio' valor='300,24'/> 
+<Card color='Azul' description='teste ' size='Cardmedio' valor='688,26'/> 
+<Card color='Azul' description='teste ' size='Cardmedio' valor='835,76'/> 
+<Card color='Azul' description='teste ' size='Cardmedio' valor='654,71'/> 
    </S.AllCard> 
    </S.Main>
   </S.Wrapper>

@@ -4,7 +4,7 @@ export const Wrapper = styled.section`
   background-color: #06092b;
   color: #fff;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0.1rem;
   text-align: center;
   display: flex;
@@ -21,10 +21,10 @@ gap: 20px;
  
 export const AllCard = styled.div`
   display: flex; 
- flex: 1 1 300px; 
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 36px;
-
+  gap: 30px; 
+ 
  
 `
 

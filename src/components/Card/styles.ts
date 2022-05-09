@@ -43,9 +43,10 @@ const ColorsCard = {
     }
     `,
     Cardmedio: css`
-      width: 210px;
+      width: 210px; 
+     
       height: 100px; 
-      min-width: 160px;
+      min-width: auto;
       display: flex;
       justify-content: center;
       align-items: center;
