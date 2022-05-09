@@ -27,7 +27,9 @@ export const AllCard = styled.div`
  
  
 ` 
-export const Second_main = styled.main`
-  
+export const Second_main = styled.main` 
+gap: 36px;
+display: flex;
+flex-direction: column;
 `;
 
