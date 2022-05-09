@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.main`
+export const Wrapper = styled.section`
   background-color: #06092b;
   color: #fff;
   width: 100%;
@@ -12,6 +12,11 @@ export const Wrapper = styled.main`
   align-items: center; 
   gap: 3rem;
   
+` 
+export const Main = styled.main`
+display: flex;
+flex-direction: column;
+gap: 20px;
 `
  
 export const AllCard = styled.div`
