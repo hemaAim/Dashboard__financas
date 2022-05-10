@@ -33,6 +33,13 @@ display: flex;
 flex-direction:column; 
 justify-content: space-between; 
 gap: 36px;
+`; 
+export const Grafico__card = styled.div`
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: flex-end; 
+  flex-wrap: wrap;
 `;
 
 export const Cards = styled.div` 

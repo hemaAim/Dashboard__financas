@@ -1,5 +1,6 @@
 import Card from 'components/Card'
 import Extract from 'components/Extract'
+import Grafico from 'components/Grafico'
 import Header from 'components/Header'
 import Sidbar from 'components/Sidbar'
 import * as S from './styles'
@@ -16,7 +17,8 @@ const Main = ({}) => (
         <Card color="Verde"   description="Poupança"  valor="835,76"  />
         <Card color="Lilais"  description="Desejado"  valor="654,71"  />
       </S.AllCard> 
-      
+     <S.Grafico__card> 
+       <Grafico/>
       <S.Second_main> 
         
      <S.Cards>
@@ -34,7 +36,8 @@ const Main = ({}) => (
         /> 
          </S.Cards> 
          <Extract/>
-      </S.Second_main>
+      </S.Second_main> 
+      </S.Grafico__card>
     </S.Main>
   </S.Wrapper>
 )
