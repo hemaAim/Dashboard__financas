@@ -30,7 +30,14 @@ export const AllCard = styled.div`
 export const Second_main = styled.main` 
 
 display: flex;
-flex-direction: row; 
-justify-content: space-between;
+flex-direction:column; 
+justify-content: space-between; 
+gap: 36px;
 `;
 
+export const Cards = styled.div` 
+display: flex; 
+gap: 30px;
+
+  
+`;

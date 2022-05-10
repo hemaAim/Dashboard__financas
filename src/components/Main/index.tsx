@@ -15,10 +15,11 @@ const Main = ({}) => (
         <Card color="Rosa"    description="Saldo "    valor="688,26"  />
         <Card color="Verde"   description="Poupança"  valor="835,76"  />
         <Card color="Lilais"  description="Desejado"  valor="654,71"  />
-      </S.AllCard>
+      </S.AllCard> 
+      
       <S.Second_main> 
-        <Extract/>
-     
+        
+     <S.Cards>
         <Card
           color="Branco"
           description="Mobilidades"
@@ -30,7 +31,9 @@ const Main = ({}) => (
           description="Refeição"
           size="Cardgrande"
           valor="654,71"
-        />
+        /> 
+         </S.Cards> 
+         <Extract/>
       </S.Second_main>
     </S.Main>
   </S.Wrapper>
