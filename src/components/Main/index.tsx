@@ -1,4 +1,5 @@
 import Card from 'components/Card'
+import Extract from 'components/Extract'
 import Header from 'components/Header'
 import Sidbar from 'components/Sidbar'
 import * as S from './styles'
@@ -15,23 +16,19 @@ const Main = ({}) => (
         <Card color="Verde"   description="Poupança"  valor="835,76"  />
         <Card color="Lilais"  description="Desejado"  valor="654,71"  />
       </S.AllCard>
-      <S.Second_main>
-        <Card
-          color="Branco"
-          description="Alimentação"
-          size="Cardpequeno"
-          valor="835,76"
-        />
+      <S.Second_main> 
+        <Extract/>
+     
         <Card
           color="Branco"
           description="Mobilidades"
-          size="Cardpequeno"
+          size="Cardgrande"
           valor="654,71"
         /> 
         <Card
           color="Branco"
           description="Refeição"
-          size="Cardpequeno"
+          size="Cardgrande"
           valor="654,71"
         />
       </S.Second_main>

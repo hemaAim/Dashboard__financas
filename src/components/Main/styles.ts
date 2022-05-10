@@ -28,8 +28,9 @@ export const AllCard = styled.div`
  
 ` 
 export const Second_main = styled.main` 
-gap: 36px;
+
 display: flex;
-flex-direction: column;
+flex-direction: row; 
+justify-content: space-between;
 `;
 
